@@ -1,0 +1,450 @@
+
+@font-face {
+    font-family: Gilroy;
+    src: url("../../../Assets/Fonts/Gilroy-Light.otf") format("opentype");
+    
+}
+@font-face {
+    font-family: GilroyBold;
+    src: url("../../../Assets/Fonts/Gilroy-ExtraBold.otf") format("opentype");
+   
+}
+
+
+
+
+
+
+#admision_facultée{
+   width:90vw;
+    color: rgb(33, 33, 33);
+    margin-top:200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: grid;
+    /*grid-template-columns: repeat(4,1fr);*/
+    grid-template-columns: repeat( auto-fit, minmax(290px, 1fr) );
+    margin: auto;
+    grid-gap: 1.3em;
+    
+}
+#newh{
+    margin-top:150px;
+}
+#ulist > li:hover{
+
+    border-bottom: 3px solid white;
+    padding-bottom: 15px;
+
+}
+
+#ulist > li{
+
+    border:none;
+    transition:all 0.5s;
+
+}
+
+.navbefore{
+    font-family: GilroyBold !important;
+    opacity: 1;
+    position:fixed;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    left:0;
+    z-index: 9;
+    align-items: center;
+    justify-content:space-around;
+     background-color: transparent;
+     top: 0;
+     margin-bottom: 270px;
+    
+}
+
+
+#check{
+    margin-top:1px;
+    display: block;
+}
+
+
+#show-hidenav{
+    display:none;
+}
+#club-name{
+    margin-left: 30px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+#club-name img{
+    padding-top:10px;
+    width:80px;
+    margin-right:40px;
+} 
+
+#h22{
+ margin-top:7px;
+ color:white;
+}
+
+
+ul{
+    padding-right: 25px;
+    display: flex;
+    justify-content:space-between;
+    list-style:none;
+}
+
+ul li a{
+    margin-right: 10px;
+    padding-left:20px;
+    color:white;
+    font-size:17px;
+    list-style:none;
+    text-decoration: none;
+}
+
+
+h1{
+    margin-top:200px;
+    color:white;
+}
+#admision_année{
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    width:90vw;
+    color: rgb(33, 33, 33);
+    margin-top:200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: grid;
+    margin: auto;
+    grid-gap: 1.3em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+footer{
+    opacity: 0.9;
+    position:absolute;
+    display:flex;
+    justify-content:space-around;
+   width:100vw;
+    height:80px;
+    background-color:#20214F;
+    color:rgb(255, 255, 255);
+    font-size:20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+   
+}
+#h23{
+    font-family: GilroyBold;
+    font-size: 24px;
+}
+.leftside{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+iframe{
+    border-radius: 5px;
+}
+
+#grid-item{
+    font-size: 15px;
+    padding-top:8px;
+    padding-bottom:8px;
+    border-radius:7px ;
+    width: 100%;
+    height: 250px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#grid-item-year{
+    padding-top:8px;
+    padding-bottom:8px;
+    border-radius:7px ;
+    width: 100%;
+    height: 250px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+body{
+    font-family: Gilroy;
+    padding-top:80px;
+    margin:0;
+    height:100%;
+   /* background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;*/
+   text-align: center;
+   background-image:url('../../../Assets/Images&Logos/Pattern-Seerene-data-analytics-management-ldark.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+form > p{
+    font-family:arial, serif;
+    font-size:30px;
+}
+
+#sidebar{
+    position: relative;
+    width:300px;
+    height:auto;
+    margin-left:0px;
+    
+}
+#countfac{
+    padding-top: -3px;
+    text-align:center;
+    margin-top: 50px;
+    font-size:30px!important;
+    font-weight:bold;
+    color:rgb(27, 27, 105);
+    width:50px;
+    margin: auto;
+    height: 50px;
+    border-radius: 15px;
+    border:4px solid rgb(27, 27, 105);
+}
+#sidebar > img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+form{
+    top:200px;
+    /*margin-top:300px !important;*/
+    margin-bottom: 50px !important;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:auto;
+    background-color:white;
+    width:75vw;
+    height:auto;
+    display:block;
+    display:flex;
+    justify-content:space-between;
+}
+#firstform{
+    margin:25px;
+    width:360px;
+}
+#secondform{
+    margin:25px;
+    width:360px;
+}
+
+#year{
+    font-size:30px;
+    font-weight:bold;
+    
+}
+h2{
+    font-size:20px;
+}
+#countyear{
+    padding-top: -3px;
+    text-align:center;
+    margin-bottom: 20px;
+    font-size:30px!important;
+    font-weight:bold;
+    color:rgb(27, 27, 105);
+    width:50px;
+    margin: auto;
+    height: 50px;
+    border-radius: 15px;
+    border:4px solid rgb(46, 15, 184);
+}
+textarea{
+    resize:none;
+    font-family: Gilroy;
+    margin-top: 25px;
+    color:rgb(46, 15, 184) ;
+    outline:none;
+    border:3px solid rgb(46, 15, 184) ; 
+    border-radius: 10px;
+}
+select{
+    padding:2px 0px 2px 6px;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size:15px;
+    height:50px;
+    margin: 25px auto 25px auto; 
+    outline:none;
+    width: 317px;
+    border: none;
+    border-bottom:3px solid rgb(46, 15, 184);
+    color:rgb(46, 15, 184)
+
+}
+
+
+input[type="submit"]{
+    font-family: Gilroy;
+    padding-left:-5px;
+    border-radius: 10px;
+    font-size:17px;
+    color: white !important;
+    border:3px solid rgb(46, 15, 184);
+    height:50px;
+     margin: 25px auto 25px auto; 
+    width:317px;
+    border-bottom:3px solid rgb(46, 15, 184);
+    transition: all 0.5s;
+    background-color:rgb(46, 15, 184);
+    
+}
+
+input[type="submit"]:hover{
+    background-color:#ffffff;
+    color:rgb(46, 15, 184)!important;
+   
+}
+::placeholder {
+    color:rgb(46, 15, 184)!important;
+    font-family: Gilroy;
+    
+  }
+input{
+    /*padding:2px 0px 2px 15px;*/
+    color:rgb(46, 15, 184)!important;
+    font-size:15px;
+    height:50px;
+    margin: 18px auto 18px auto; 
+    outline:none;
+    width: 300px;
+    border: none;
+    border-bottom:3px solid rgb(46, 15, 184);
+}
+
+.big_container{
+   
+    position: relative;
+   padding:30px;
+    background-image:url('./Pattern-Seerene-data-analytics-management-ldark.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hamb{
+    display:none;
+}
+#check{
+    display:none;
+}
+
+@media screen and (max-width: 946px){
+    nav{
+        opacity:1;
+        display: flex;
+        flex-direction: column;
+        height:auto;
+    }
+    ul{
+        padding: 0;
+        margin:-2px;
+        position: fixed;
+        width: 100%;
+        height:auto;
+        background: #000000;
+        opacity:1;
+        top: 80px;
+        left: -130%;
+        text-align: center;
+        transition: all .5s;
+        display:block;
+      }
+
+      #taille{
+        width:45px;
+    }
+   
+      li:hover{
+          border-bottom: 2px solid white;
+          padding-bottom: 18px;
+          
+         
+      }
+
+      footer{
+        display:flex;
+        flex-direction: column;
+        height:auto;
+     } 
+    
+     #taille{
+         width:45px;
+     }
+
+      nav ul li{
+      
+        
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        border:none;
+        transition: all 0.5s;
+        
+      }
+    #h22 {
+        display:none;
+    }
+    #show-hidenav{
+        display:inline;
+    }
+   
+    .checkbtn{
+        margin-top:-65px;
+        margin-right: 18px !important;
+        transform: translateX(200px);
+        float:right;
+
+    }
+    #check{
+        display:none;
+        top:0px;
+    }
+    #check:checked ~ ul {
+
+    left: 0%;
+}
+  
+#hamb{
+    display:inline;
+    margin-right: 47px;
+    width:45px;
+    color: aliceblue;
+    -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+    filter: invert(100%);
+}
+
+form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width:90vw;
+}
+#sidebar{
+    display:none;
+}
+}
+
+
+@media screen  and (max-width: 1200px) {
+    #sidebar{
+        display:none;
+    }
+}

@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Gilroy;
+    src: url("../Assets/Fonts/Gilroy-Light.otf") format("opentype");
+    
+}
+@font-face {
+    font-family: GilroyBold;
+    src: url("../../Assets/Fonts/Gilroy-ExtraBold.otf") format("opentype");
+   
+}
+
+
+body{
+    padding-top:80px;
+    margin:0;
+    height:100%;
+    background-image:url('../Assets/Images&Logos/Pattern-Seerene-data-analytics-management-ldark.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Gilroy !important;
+}
+
+
+table{
+   
+    border-collapse: collapse;
+    padding: 20px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    width:1300px;
+    height:auto;
+    background-color:white;
+    color:rgb(36, 36, 36);
+    border-radius: 10px;
+}
+
+tr{
+    margin: 25px;
+    height:100px;
+    border: solid;
+  border-width: 1px 0;
+}
+td{
+    min-width:100px;
+}
+p{
+    
+    font-size:30px;
+    color:white;
+}
+
+#accepter{
+   font-size: 15px;
+    width: 90px;
+    height:45px;
+    border:2px solid rgb(55, 167, 55);
+    color:rgb(55, 167, 55);
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s;
+   border-radius:6px;
+}
+#accepter:hover{
+    background-color: rgb(55, 167, 55);
+    color:white;
+}
+
+#refuser{
+    font-size: 15px;
+     width: 90px;
+     height:45px;
+     border:none;
+     color:rgb(177, 22, 22);
+     background-color: rgb(255, 255, 255);
+     border:2px solid rgb(177, 22, 22);
+    border-radius:6px;
+    margin-right:15px;
+    transition: all 0.5s;
+ }
+
+ #refuser:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(177, 22, 22);
+    border:2px solid rgb(177, 22, 22);
+
+ }
+ .thead{
+    border-top-left-radius: 7px !important;
+    background-color:rgb(46, 15, 184);
+    
+     height:90px;
+     color: white;
+     width:100%;
+     
+     
+     
+ }
+ 
+ th{
+     border:none;
+ }

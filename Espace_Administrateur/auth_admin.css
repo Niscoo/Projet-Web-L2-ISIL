@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Gilroy;
+    src: url("../Assets/Fonts/Gilroy-Light.otf") format("opentype");
+    
+}
+@font-face {
+    font-family: GilroyBold;
+    src: url("../Assets/Fonts/Gilroy-ExtraBold.otf") format("opentype");
+   
+}
+
+
+body{
+    font-family: Gilroy;
+    padding-top:80px;
+    margin:0;
+    height:100%;
+    background-image:url('../Assets/Images&Logos/Pattern-Seerene-data-analytics-management-ldark.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+form > p{
+    font-weight: bold;
+    color:#646FD4;
+    font-size:30px;
+}
+form{
+    
+    border-radius: 10px;
+    font-family: Gilroy !important;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:auto;
+    background-color:white;
+    width:470px;
+    height:440px;
+    display:block;
+    display:flex;
+    flex-direction: column;
+}
+
+input[type="submit"]{
+    border-radius: 10px;
+    font-size:17px;
+    color:white;
+    border:none;
+    height:50px;
+   margin: 25px auto 25px auto; 
+    width:400px;
+    background-color: #646FD4;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    
+}
+
+input[type="text"]{
+    color:#646FD4;
+    font-size:15px;
+    height:50px;
+    margin: 25px auto 25px auto; 
+    outline:none;
+    width: 400px;
+    border: none;
+    border-bottom: 3px solid #646FD4;
+}
+::placeholder{
+    color:#646FD4;
+}
+input[type="password"]{
+    color:#646FD4;
+    font-size:15px;
+    height:50px;
+    margin: 25px auto 25px auto;
+    outline:none;
+    width: 400px;
+    border: none;
+    border-bottom: 3px solid #646FD4;
+}

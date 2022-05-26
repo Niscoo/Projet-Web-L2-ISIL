@@ -1,0 +1,338 @@
+@font-face {
+    font-family: Gilroy;
+    src: url("../../../Assets/Fonts/Gilroy-Light.otf") format("opentype");
+    
+}
+@font-face {
+    font-family: GilroyBold;
+    src: url("../../../Assets/Fonts/Gilroy-ExtraBold.otf") format("opentype");
+   
+}
+
+
+#ulist > li:hover{
+
+    border-bottom: 3px solid white;
+    padding-bottom: 15px;
+
+}
+
+#ulist > li{
+
+    border:none;
+    transition:all 0.5s;
+
+}
+body{
+ font-family: Gilroy !important;
+ color: rgb(255, 255, 255) ;
+ margin:0;
+ background-image:url('../../../Assets/Images&Logos/Pattern-Seerene-data-analytics-management-ldark.png');
+ background-repeat:no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ background-size:cover;
+ background-repeat:no-repeat;
+ background-attachment: fixed;
+}
+
+nav{
+    font-family: GilroyBold;
+    position:fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    left:0;
+    z-index: 9;
+    align-items: center;
+    justify-content:space-around;
+     background-color: transparent;
+     top: 0;
+     
+
+}
+
+#club-name{
+    padding-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content:space-between;
+}
+#club-name img{
+   
+    width:80px;
+    margin-right:40px;
+} 
+nav > ul{
+    display: flex;
+    justify-content:space-between;
+    list-style:none;
+}
+
+nav > ul li a{
+    margin-right: 10px;
+    padding-bottom: 0px;
+    padding-left:20px;
+    color:white;
+    font-size:17px;
+    list-style:none;
+    text-decoration: none;
+    height:50px;
+    
+}
+
+footer{
+transform: translateY(100px);
+position:relative;
+width: 98%;
+height:30%;
+bottom:0 !important;
+margin:auto;
+opacity: 0.93 !important;
+font-size:14px;
+
+
+}
+#title{
+    text-align:center;
+    font-size:25px;
+    padding-top:50px;
+    color:rgb(255, 255, 255);
+}
+#sub-container{
+    font-size: 15px;
+    color:black;
+   width:100%;
+   height:90%;
+   border-top-left-radius: 17px;
+   border-top-right-radius: 17px;
+   padding-top:0px;
+   padding-bottom: 15px;
+   background-color:#20214F !important;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    opacity: 0.95!important;
+}
+
+#club-infos{
+    padding-left: 15px;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    gap: 5px;
+}
+#logos{
+    height:100px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+#logos >li {
+   
+   width:50px;
+}
+
+#logos >li > a {
+   
+    width:auto;
+    height:auto;
+ }
+ 
+.icow{
+    width: 60px !important;
+    height:80px;
+}
+#platforms{
+    color:rgb(255, 255, 255);
+    display: inline;
+    font-family: GilroyBold;
+    width:80px;
+}
+#club-infos> ul {
+    font-size:20px;
+    list-style:none;
+    text-decoration: none;
+   display: flex;
+   justify-content:space-around;
+}
+#club-infos a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    width: 70px;
+}
+.vertical {
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 450px;
+    width: 50px;
+    position:absolute;
+    left: 60%;
+
+}
+#Form{
+   
+  
+    color:rgb(255, 255, 255);
+    display:flex;
+    flex-direction:column;
+    margin-right: 30px;
+}
+input{
+    color:white;
+    position: relative;
+    width:353px;
+    height:30px;
+    border-radius: 7px;
+    outline: none;
+    background-color:#20214F !important;
+    border: 3px solid white;
+
+}
+
+#infoos{
+    font-size: 17px;
+    transform: translateY(50px);
+    color:rgb(255, 255, 255);
+}
+textarea{
+    color:white;
+    background-color:#20214F !important;
+    position:relative;
+    margin-top: 30px;
+    border-radius: 7px;
+    outline: none;
+    border: 3px solid white;
+}
+
+
+#submitt{
+    position: relative;
+    width:360px;
+    height:50px;
+    border:3px solid white;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color:#20214F !important;
+     color:white;
+    margin-bottom: 20px;
+    transition: background-color 0.5s;
+}
+#submitt:hover{
+    color:black;
+    background-color: rgb(255, 255, 255) !important;
+    
+}
+
+#hamb{
+    display:none;
+}
+#check{
+    display:none;
+}
+
+
+@media screen and (max-width: 1230px) {
+    #sub-container{
+        display:flex;flex-direction:column;
+        height: auto;
+        gap:80px;
+        opacity: 0.93 !important;
+    }
+    #club-infos{
+        display:flex;flex-direction:column;justify-content:center;align-items:center;
+        height: auto;
+        
+    }
+    #Form{
+        display:flex;flex-direction:column;justify-content:center;align-items:center;
+        border-top:2px solid white;
+        width:90vw;
+        margin-right: 0px;
+    }
+    .vertical{
+        display: none;
+        margin:auto;
+    }
+
+    nav{
+        opacity:1;
+        display: flex;
+        flex-direction: column;
+        height:auto;
+    }
+    .icow{
+        width: 50px !important;
+        height:80px;
+    }
+    #ulist{
+        
+        padding: 0;
+        margin:-2px;
+        position: fixed;
+        width: 100%;
+        height:auto;
+        background: #000000;
+        opacity:1;
+        top: 80px;
+        left: -130%;
+        text-align: center;
+        transition: all .5s;
+        display:block !important;
+      }
+   
+      #ulist > li:hover{
+          border-bottom: 2px solid white;
+          padding-bottom: 18px;
+          
+         
+      }
+
+      nav ul li{
+      
+        
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        border:none;
+        transition: all 0.5s;
+        
+      }
+      #logos{
+          margin-right: 60px;
+          width:300px;
+
+      }
+     
+    #h22 {
+        display:none;
+    }
+    #show-hidenav{
+        display:inline;
+    }
+   
+    .checkbtn{
+        margin-top:-65px;
+        margin-right: 18px !important;
+        transform: translateX(200px);
+        float:right;
+
+    }
+    #check{
+        display:none;
+        top:0px;
+    }
+    #check:checked ~ ul {
+
+    left: 0%;
+}
+  
+#hamb{
+    display:inline;
+    margin-right: 47px;
+    width:45px;
+    color: aliceblue;
+    -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+    filter: invert(100%);
+}
+      
+}
